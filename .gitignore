@@ -1,0 +1,20 @@
+# Ignore Mac system files
+.DS_Store
+
+# Ignore all text files
+*.txt
+
+# Ignore all files in any directory named bin
+bin/
+
+# Ignore all .pdf files in the doc directory and any of its subdirectories
+doc/**/*.pdf
+
+# Ignore one specific file
+config/ignore-this.txt
+
+# Ignore all .env files
+.env
+
+# But track this .env file, even though you're ignoring .env files above
+!.env.example
